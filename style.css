@@ -1,0 +1,28 @@
+body{
+     margin: 0 auto;
+     background-color: #7EBDC2;
+
+}
+
+main td{
+     background-color: #7EBDC2;
+     font-size: 20px;
+}
+
+.menu{
+     height: 200px;
+     background-color: blue;
+}
+
+.Field_zone{ 
+   display: flex;
+   justify-content: center;
+}
+
+.field{
+     margin-top: 10px;
+}
+
+.field td{
+     padding: 15px;
+}
