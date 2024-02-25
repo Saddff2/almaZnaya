@@ -1,17 +1,25 @@
-body{
+html, body{
      margin: 0 auto;
-     background-color: #7EBDC2;
-
 }
 
-main td{
-     background-color: #7EBDC2;
-     font-size: 20px;
+.main_background {
+     min-height: 100vh;
+     min-width: 1024px;
+     width: 100%;
+     background-color: #0F6008;
+     display: flex;
+     flex-direction: column;
+   }
+ 
+.wrapper{
+     display: flex;
+     justify-content: center;
 }
 
-.menu{
-     height: 200px;
-     background-color: blue;
+.menu_section {
+     width: 85%;
+     height: 20vh;
+     background-color: black;
 }
 
 .Field_zone{ 
@@ -20,9 +28,44 @@ main td{
 }
 
 .field{
-     margin-top: 10px;
+     font-size: 1em;
+     margin: 25px;
 }
 
 .field td{
-     padding: 15px;
+     padding: 18px 18px 12px 18px;
+}
+
+.bottom_menu{
+     width: 85%;
+     height: 18.8vh;
+     background-color: black;
+     font-size: 0;
+     padding: 10px;
+}
+
+.bottom_menu_chat{
+     display: inline-block;
+     width: 35%;
+     height: inherit;
+     background-color: aliceblue;
+}
+
+.bottom_menu_time{
+     display: inline-block;
+     background-color: aqua;
+     width: 25%;
+     height: inherit;
+}
+
+.bottom_menu_counter{
+     display: inline-block;
+     background-color: #77A073;
+     border-radius: 55px;
+     width: 40%;
+     height: 18.8vh;
+}
+
+.crystal_block{
+     padding: 15px 40px;
 }
