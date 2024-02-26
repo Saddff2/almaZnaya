@@ -17,3 +17,20 @@ tableHtml += '</table>';
 field.forEach(function(field) {
      field.innerHTML = tableHtml;
  });
+
+ 
+let crystalImg = document.querySelectorAll('.cell')
+let crystalText = document.querySelector('.crystal_text')
+
+let crystalNumber = 0;
+crystalText.innerHTML = crystalNumber;
+
+let incrementRock = () => {
+      crystalNumber++;
+      crystalText.innerHTML = crystalNumber;
+}
+
+crystalImg.forEach(function (currentCell, indexCell){
+      currentCell.addEventListener('click', incrementRock);
+})
+

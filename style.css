@@ -73,6 +73,7 @@ html, body{
 }
 
 .crystal_block{
+     width: 30;
      display: inline-block;
      padding: 15px 40px;
 }
@@ -80,4 +81,9 @@ html, body{
 .crystal_img{
      max-width: 100%;
      height: auto;
+}
+
+.crystal_text{
+     margin-left: 16px;
+     font-size: 60px;
 }
