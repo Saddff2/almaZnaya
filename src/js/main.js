@@ -1,7 +1,7 @@
 const table = [];
 const field = document.querySelectorAll('.Field_zone_playground');
 
-var tableHtml = '<table class=field>';
+let tableHtml = '<table class=field>';
 for (let i = 0; i < 8; i++) {
           table.push([]);
           tableHtml += '<tr class="row">';
@@ -12,7 +12,6 @@ for (let i = 0; i < 8; i++) {
     tableHtml += '</tr>';
 }
 tableHtml += '</table>';
-
 
 field.forEach(function(field) {
      field.innerHTML = tableHtml;
