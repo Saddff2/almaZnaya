@@ -1,45 +1,37 @@
-html, body{
+html, body {
      margin: 0 auto;
-}
-
-.main_background {
-     min-height: 100vh;
-     min-width: 1024px;
-     width: 100%;
      background-color: #0F6008;
-     display: flex;
-     flex-direction: column;
-   }
+}
  
-.wrapper{
+.wrapper {
      display: flex;
      justify-content: center;
 }
 
-.menu_section {
+.menu {
      width: 85%;
      height: 20vh;
      background-color: black;
 }
 
-.Field_zone{ 
+.field-zone { 
    display: flex;
    justify-content: center;
 }
 
-.field{
+.field-zone__playground {
      margin: 25px;
 }
 
-.field td{
+.field-zone__playground td {
      padding: 18px 18px 12px 18px;
 }
 
-.cell{
+.field-zone__playground__cell {
      background-image: url(/src/assets/img/grass.png)
 }
 
-.bottom_menu{
+.bottom-menu {
      display: flex;
      width: 85%;
      height: 18.8vh;
@@ -49,21 +41,21 @@ html, body{
      gap: 10px;
 }
 
-.bottom_menu_chat{
+.bottom-menu__chat {
      display: inline-block;
      width: 35%;
      height: inherit;
      background-color: aliceblue;
 }
 
-.bottom_menu_time{
+.bottom-menu__time{
      display: inline-block;
      background-color: aqua;
      width: 25%;
      height: inherit;
 }
 
-.bottom_menu_counter{
+.bottom-menu__counter{
      display: inline-block;
      background-color: #77A073;
      border-radius: 55px;
@@ -71,18 +63,18 @@ html, body{
      height: 18.8vh;
 }
 
-.crystal_block{
+.bottom-menu__counter__rock-block{
      width: 30;
      display: inline-block;
-     padding: 15px 40px;
+     padding: 15px 30px;
 }
 
-.crystal_img{
+.bottom-menu__counter__rock-block__img {
      max-width: 100%;
      height: auto;
 }
 
-.crystal_text{
+.bottom-menu__counter__rock-block__text{
      margin-left: 16px;
      font-size: 60px;
 }
