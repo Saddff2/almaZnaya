@@ -8,55 +8,30 @@
   </head>
   <body>
     <script type="module" src="/src/js/main.js"></script>
-      <div class="wrapper">
-        <section class="menu"></section>
-      </div>
+        <section class="menu">
+          <div class="wrapper">
+          </div>
+        </section>
       <div class="field-zone">
+        <div class="field-zone__background"></div>
         <div class="field-zone__playground"></div>
       </div>
-      <div class="wrapper">
         <div class="bottom-menu">
-          <div class="bottom-menu__chat"></div>
-          <div class="bottom-menu__time"></div>
-          <div class="bottom-menu__counter">
-            <div class="bottom-menu__counter__wood-block">
-              <div class="bottom-menu_counter__wood-block__img">
-                <img src="/src/assets/img/Rock1_1.png" alt="Rock1_1.png">
+          <div class="wrapper bottom-menu__wrapper">
+            <div class="bottom-menu__chat chat"></div>
+            <div class="bottom-menu__timer timer"></div>
+            <div class="bottom-menu__counter counter">
+              <div class="resource counter__resourсe">
+                <div class="resource__img"></div>
+                <span class="resource__mined resource__mined_wood"></span>
               </div>
-              <span class="bottom-menu__counter__wood-block__text"></span>
-            </div>
-            <div class="bottom-menu__counter__rock-block">
-              <div class="bottom-menu_counter__rock-block__img">
-                <img src="/src/assets/img/Rock1_1.png" alt="Rock1_1.png">
-              </div>
-              <span class="bottom-menu__counter__rock-block__text"></span>
-            </div>
-            <div class="bottom-menu__counter__iron-block">
-              <div class="bottom-menu_counter__iron-block__img">
-                <img src="/src/assets/img/Rock1_1.png" alt="Rock1_1.png">
-              </div>
-              <span class="bottom-menu__counter__iron-block__text"></span>
-            </div>
-            <div class="bottom-menu__counter__gold-block">
-              <div class="bottom-menu_counter__gold-block__img">
-                <img src="/src/assets/img/Rock1_1.png" alt="Rock1_1.png">
-              </div>
-              <span class="bottom-menu__counter__gold-block__text"></span>
-            </div>
-            <div class="bottom-menu__counter__gem-block">
-              <div class="bottom-menu_counter__gem-block__img">
-                <img src="/src/assets/img/Rock1_1.png" alt="Rock1_1.png">
-              </div>
-              <span class="bottom-menu__counter__gem-block__text"></span>
-            </div>
-            <div class="bottom-menu__counter__diamond-block">
-              <div class="bottom-menu_counter__diamond-block__img">
-                <img src="/src/assets/img/Rock1_1.png" alt="Rock1_1.png">
-              </div>
-              <span class="bottom-menu__counter__diamond-block__text"></span>
+              <div class="resource counter__resourсe" data-resourсe="rock"></div>
+              <div class="resource counter__resourсe" data-resourсe="iron"></div>
+              <div class="resource counter__resourсe" data-resourсe="gold"></div>
+              <div class="resource counter__resourсe" data-resourсe="gems"></div>
+              <div class="resource counter__resourсe" data-resourсe="diamond"></div>
             </div>
           </div>
         </div>
-      </div>
     </body>
 </html>
