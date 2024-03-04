@@ -19,15 +19,17 @@ html, body {
    justify-content: center;
 }
 
-.field-zone__playground {
+.field-zone__background {
      margin: 25px;
 }
 
-.field-zone__playground td {
+.field-zone__background td {
      padding: 18px 18px 12px 18px;
+     height: auto;
+     width: 200px;
 }
 
-.playground__cell {
+.background__cell {
      background-image: url(/src/assets/img/grass.png)
 }
 
@@ -53,14 +55,14 @@ html, body {
      background-color: aliceblue;
 }
 
-.timer{
+.timer {
      /* display: inline-block; */
      background-color: aqua;
      width: 25%;
      height: inherit;
 }
 
-.counter{
+.counter {
      /* display: inline-block; */
      background-color: #77A073;
      border-radius: 55px;
@@ -70,14 +72,14 @@ html, body {
      box-sizing: border-box;
 }
 
-.resource{
+.resource {
      background-color: white;
      height: 100%;
      width: 15%;
      text-align: center;
 }
 
-.resource__mined{
+.resource__mined {
      font-size: 20px;
 }
 

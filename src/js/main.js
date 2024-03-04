@@ -1,21 +1,40 @@
-const table = [];
-const field = document.querySelectorAll('.field-zone__playground');
+const backgroundArray = [];
+const backgroundField = document.querySelectorAll('.field-zone__background');
 
 let tableHtml = '<table class=field-zone__playground>';
 for (let i = 0; i < 8; i++) {
-          table.push([]);
-          tableHtml += '<tr class="playground__row">';
-    for (let j = 0; j < 18; j++) {
-          table[i].push(`${i}.${j}`);
-          tableHtml += '<td class="playground__cell">' + '<div class="field__img__container"></div>' + table[i][j] + '</td>';
+          backgroundArray.push([]);
+          tableHtml += '<tr class="background__row">';
+    for (let j = 0; j < 10; j++) {
+          backgroundArray[i].push(`${i}.${j}`);
+          tableHtml += '<td class="background__cell">' + '<div class="field__img__container"></div>' + backgroundArray[i][j] + '</td>';
     }
     tableHtml += '</tr>';
 }
 tableHtml += '</table>';
 
-field.forEach(function(field) {
+backgroundField.forEach(function(field) {
      field.innerHTML = tableHtml;
- });
+});
+
+// const backgroundArray = [];
+// const backgroundField = document.querySelectorAll('.field-zone__background');
+
+// let tableHtml = '<table class=field-zone__playground>';
+// for (let i = 0; i < 8; i++) {
+//           backgroundArray.push([]);
+//           tableHtml += '<tr class="background__row">';
+//     for (let j = 0; j < 18; j++) {
+//           backgroundArray[i].push(`${i}.${j}`);
+//           tableHtml += '<td class="background__cell">' + '<div class="field__img__container"></div>' + backgroundArray[i][j] + '</td>';
+//     }
+//     tableHtml += '</tr>';
+// }
+// tableHtml += '</table>';
+
+// backgroundField.forEach(function(field) {
+//      field.innerHTML = tableHtml;
+//  });
 
 //  start td.playground__cell = based
 // mined + .playground__cell_wood = td.playground__cell.playground__cell_wood
